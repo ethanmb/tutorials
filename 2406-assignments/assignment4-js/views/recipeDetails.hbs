@@ -1,0 +1,33 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<title> {{title}} </title>
+<style type="text/css">
+table{
+   border-collapse: collapse;
+   border: 1px solid black;
+   width: 50%;
+   background-color: #EEEEEE;
+   font-size: 20px;
+}
+td {
+   border: 1px solid black;
+   padding: 12px;
+}
+</style>
+</head>
+<body>
+
+   <div>
+      <h1>{{song.id}}  Recipe Name: {{recipe.name}}</h1>
+      <p>Contributor: {{recipe.contributor}}</p>
+      <p>Category: {{recipe.category}}</p>
+      <p>Description: {{recipe.description}}</p>
+      <p>Spices: {{recipe.spices}}</p>
+      <p>Sources: {{recipe.source}}</p>
+      <p>Rating: {{recipe.rating}}</p>
+      <p>Ingredients: {{recipe.ingredients}}</p>
+      <p>Directions: {{recipe.directions}}</p>
+   </div>
+</body>
+</html>

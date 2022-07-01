@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head> 
+  <title> {{title}} </title>
+</head>
+<body>
+   <h1>{{title}}</h1>
+<div> 
+   {{#each songEntries}} 
+      <p><a href= 'recipe/{{this.id}}' target="_blank">{{this.recipe_name}} {{this.spices}}</a></p> 
+   {{/each}} 
+</div>
+</body>
+</html>
